@@ -1,0 +1,41 @@
+#cart {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #df1616;
+  }
+  
+  #items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .decrement,
+  .increment,
+  .delete,
+  .like {
+    margin-left: 10px;
+  }
+  
+  .like {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #ccc;
+  }
+  
+  .like.liked {
+    color: red;
+  }
+  
+  #price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
